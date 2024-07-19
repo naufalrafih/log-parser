@@ -1,0 +1,1 @@
+FROM Metric SELECT sum(log_request_count) AS 'Request Count' TIMESERIES

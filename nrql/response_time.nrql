@@ -1,0 +1,1 @@
+FROM Metric SELECT average(log_response_time.summary) AS 'Response Time' TIMESERIES
